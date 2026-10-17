@@ -7,7 +7,6 @@ compatibility_flags = ["nodejs_compat"]
 binding= "settings"
 id= "f2feacbee1ed48a2a24aa8cf50003471"
 
-# ...
 [observability.logs]
 enabled = true
 head_sampling_rate = 1
@@ -21,4 +20,3 @@ persist = true
 
 [observability.issue_detection]
 enabled = true
-# ...
