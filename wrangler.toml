@@ -6,6 +6,19 @@ compatibility_flags = ["nodejs_compat"]
 [[kv_namespaces]]
 binding= "settings"
 id= "f2feacbee1ed48a2a24aa8cf50003471"
-[observability]
+
+# ...
+[observability.logs]
 enabled = true
 head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 1
+persist = true
+
+[observability.issue_detection]
+enabled = true
+# ...
