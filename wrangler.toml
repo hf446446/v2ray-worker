@@ -12,4 +12,4 @@ enabled = true
 head_sampling_rate = 1
 
 [observability.logs]
-invocatios_logs = true
+invocation_logs = true
