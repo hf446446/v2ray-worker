@@ -25,4 +25,4 @@ jobs:
         run: npm ci
 
       - name: Deploy Worker
-        run: npx wrangler deploy --api-token "${{ secrets.CF_API_TOKEN }}" --account-id "${{ secrets.CF_ACCOUNT_ID }}"
+        run: npx wrangler@3 deploy --api-token "${{ secrets.CF_API_TOKEN }}" --account-id "${{ secrets.CF_ACCOUNT_ID }}"
