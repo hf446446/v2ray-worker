@@ -7,9 +7,3 @@ compatibility_flags = ["nodejs_compat"]
 binding= "settings"
 id= "f2feacbee1ed48a2a24aa8cf50003471"
 
-[observability]
-enabled = true
-head_sampling_rate = 1
-
-[observability.logs]
-invocation_logs = true
